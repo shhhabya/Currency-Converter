@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/curr.css" />
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input
+                    type="number"
+                    placeholder="Calculate Currency"
+                    min="1"
+                />
+            </div>
+
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img id="from-img" src="https://flagsapi.com/US/flat/64.png" alt="From Flag" />
+                        <select name="from"></select>
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img id="to-img" src="https://flagsapi.com/IN/flat/64.png" alt="To Flag" />
+                        <select name="to"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg">Enter amount to convert</div>
+
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../js/codes.js"></script>
+    <script src="../js/curr.js"></script>
+</body>
+</html>
