@@ -27,20 +27,6 @@ It fetches real-time exchange rates from a public currency API and dynamically u
 
 ---
 
-## Project Structure
-
-project-root/
-├── html/
-│ └── index.html
-├── css/
-│ └── curr.css
-├── js/
-│ ├── curr.js
-│ └── codes.js
-
-
----
-
 ## How It Works
 
 1. User enters an amount
